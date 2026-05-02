@@ -80,7 +80,7 @@ struct AddFakeAppSheet: View {
                         }
                     }
                 }
-                .scrollContentBackground(.hidden)
+                
             }
             .navigationTitle("New Fake App")
             .navigationBarTitleDisplayMode(.inline)

@@ -140,7 +140,7 @@ struct SettingsSheet: View {
                         }
                     }
                 }
-                .scrollContentBackground(.hidden)
+                
             }
             .navigationTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)

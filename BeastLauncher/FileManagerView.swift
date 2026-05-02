@@ -78,7 +78,7 @@ struct FileManagerView: View {
                     }
                 }
                 .listStyle(.plain)
-                .scrollContentBackground(.hidden)
+                .background(theme.background)
             }
         }
         .background(theme.background)
@@ -139,7 +139,7 @@ struct FileManagerView: View {
                     .padding()
                     .foregroundColor(theme.textPrimary)
                     .font(.system(size: 14, design: .monospaced))
-                    .scrollContentBackground(.hidden)
+                    .background(Color.clear)
             }
             .navigationTitle(file.name)
             .navigationBarTitleDisplayMode(.inline)
