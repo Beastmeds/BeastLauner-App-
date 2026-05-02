@@ -1,0 +1,17 @@
+# Xcode
+build/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.xcarchive
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# CocoaPods
+Pods/
+Podfile.lock
